@@ -214,7 +214,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
--- NOTE: (apetrov) Continue reading from here :)
 --
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
@@ -278,6 +277,7 @@ require('lazy').setup({
     },
   },
 
+  -- NOTE: (petrova) continue from here
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
   -- This is often very useful to both group configuration, as well as handle
